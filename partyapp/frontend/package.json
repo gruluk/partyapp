@@ -1,10 +1,12 @@
 {
+  "homepage": "http://gruluk.github.io/partyapp",
   "name": "frontend",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
     "dev": "webpack --mode development --watch",
-    "build": "webpack --mode production"
+    "build": "webpack --mode production",
+    "predeploy": "npm run build"
   },
   "keywords": [],
   "author": "",
@@ -24,7 +26,10 @@
     "@material-ui/core": "^4.11.3",
     "@material-ui/icons": "^4.11.2",
     "@material-ui/lab": "^4.0.0-alpha.57",
-    "react-router-dom": "^5.2.0"
+    "react-router-dom": "^5.2.0",
+    "gh-pages": "^2.1.1"
   },
+
   "description": ""
+  
 }
