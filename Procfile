@@ -1,1 +1,1 @@
-web: gunicorn partyapp.partyapp.wsgi.py --log-file -
+web: gunicorn partyapp.wsgi.py --log-file -
